@@ -3,16 +3,28 @@ import { Typography, Paper, Box, Card, CardContent, Grid } from "@mui/material";
 function Projects() {
   const projectList = [
     {
-      title: "Resume Webpage",
-      description: "Developed using HTML and CSS in VS Code as a web development exercise."
+      title: "Image Classification with TensorFlow",
+      description: "Developed a deep learning model using TensorFlow and Keras to classify images with 95% accuracy. Implemented CNN architecture with Python and trained on custom dataset."
     },
     {
-      title: "Generative AI Case Study",
-      description: "Group project on Software Test Case Generation, prepared and uploaded for your course deadline."
+      title: "Sentiment Analysis NLP Project",
+      description: "Built a Natural Language Processing model using scikit-learn and NLTK to analyze sentiment from text data. Achieved 92% accuracy on sentiment classification using machine learning algorithms."
     },
     {
-      title: "Student Management MVC",
-      description: "Built an MVC app with Node.js/Express, MongoDB (via Compass), and Postman testing, including database setup and screenshots for submission."
+      title: "Java Spring Boot REST API",
+      description: "Created a full-stack RESTful API using Java Spring Boot with MySQL database integration. Implemented authentication, data validation, and comprehensive unit testing with JUnit."
+    },
+    {
+      title: "Predictive Analytics Dashboard",
+      description: "Developed ML-based predictive model using Python (pandas, scikit-learn) with interactive visualizations. Predicts customer churn with 89% precision using ensemble methods."
+    },
+    {
+      title: "Java Microservices Architecture",
+      description: "Built scalable microservices using Java Spring Boot, Spring Cloud, and Docker. Implemented service discovery, API gateway, and inter-service communication patterns."
+    },
+    {
+      title: "Time Series Forecasting",
+      description: "Created LSTM neural network using TensorFlow for stock price prediction. Processed time-series data with PyTorch and achieved 87% directional accuracy on predictions."
     }
   ];
 
