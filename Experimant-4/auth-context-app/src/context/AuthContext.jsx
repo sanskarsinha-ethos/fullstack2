@@ -4,7 +4,7 @@ export const AuthContext = createContext();
 
 const AuthProvider = ({ children }) => {
   const [isLoggedIn, setIsLoggedIn] = useState(true);
-  const [userName, setUserName] = useState("aryan koundal");
+  const [userName, setUserName] = useState("Sanskar Sinha");
   const [loginCount, setLoginCount] = useState(0);
 
   const login = (name) => {
